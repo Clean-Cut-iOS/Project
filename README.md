@@ -27,7 +27,7 @@ CleanCut is a social media app where interested people can post their haircuts t
 
 * Users can create their IDs and can then later login using said IDs.
 * Backend database to store User details as well as their posts and friends.
-* USers can add their friends through the app.
+* Users can add their friends through the app.
 * Photos that can be taken from both the device library as well as from the camera.
 * A rating system on a scale to allow your friends to rate your new haircut.
 * A profile page to see all theirs photos and friends.
