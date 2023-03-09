@@ -14,10 +14,10 @@ CleanCut is a social media app where interested people can post their haircuts t
 [Evaluation of your app across the following attributes]
 - **Category:** Social Media
 - **Mobile:** The app is mainly created for mobile, but given time can easily be imported to PC, similar to other social media apps like Instagram and   Snapchat. 
-- **Story:** CleanCut was created to allow users to share their new haircuts with their friends and get their opinions on it. It allowed the 
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Story:** CleanCut was created to allow users to share their new haircuts with their friends and get their opinions on it. It also lets user tag their barbers alogside the picture, which has the benefit of allowing free advertisement for the barber, although whether the advertisement is good or bad depends on their own skills.
+- **Market:** The main market for CleanCut is thought to be young people who are more willing to try various hairstyles. The app itself has separate tabs for male and female pictures as well.
+- **Habit:** This app could be used as often or unoften as the user wanted depending on how often they or their friends get haircuts.
+- **Scope:** We would start by helping people pair with their friends using possibly other social media apps.
 
 ## Product Spec
 
