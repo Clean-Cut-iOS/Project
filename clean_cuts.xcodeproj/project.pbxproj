@@ -16,6 +16,7 @@
 		5C936C3C29B94F760049E28D /* clean_cutsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C936C3B29B94F760049E28D /* clean_cutsTests.swift */; };
 		5C936C4629B94F760049E28D /* clean_cutsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C936C4529B94F760049E28D /* clean_cutsUITests.swift */; };
 		5C936C4829B94F760049E28D /* clean_cutsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C936C4729B94F760049E28D /* clean_cutsUITestsLaunchTests.swift */; };
+		5C936C5529B9578E0049E28D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C936C5429B9578E0049E28D /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5C936C4129B94F760049E28D /* clean_cutsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clean_cutsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C936C4529B94F760049E28D /* clean_cutsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clean_cutsUITests.swift; sourceTree = "<group>"; };
 		5C936C4729B94F760049E28D /* clean_cutsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clean_cutsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5C936C5429B9578E0049E28D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				5C936C2629B94F720049E28D /* SceneDelegate.swift */,
 				5C936C2829B94F720049E28D /* ViewController.swift */,
 				5C936C2A29B94F720049E28D /* Main.storyboard */,
+				5C936C5429B9578E0049E28D /* SignUpViewController.swift */,
 				5C936C2D29B94F760049E28D /* Assets.xcassets */,
 				5C936C2F29B94F760049E28D /* LaunchScreen.storyboard */,
 				5C936C3229B94F760049E28D /* Info.plist */,
@@ -260,6 +263,7 @@
 			files = (
 				5C936C2929B94F720049E28D /* ViewController.swift in Sources */,
 				5C936C2529B94F720049E28D /* AppDelegate.swift in Sources */,
+				5C936C5529B9578E0049E28D /* SignUpViewController.swift in Sources */,
 				5C936C2729B94F720049E28D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
