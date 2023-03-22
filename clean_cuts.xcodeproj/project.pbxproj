@@ -26,6 +26,8 @@
 		5C936C4629B94F760049E28D /* clean_cutsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C936C4529B94F760049E28D /* clean_cutsUITests.swift */; };
 		5C936C4829B94F760049E28D /* clean_cutsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C936C4729B94F760049E28D /* clean_cutsUITestsLaunchTests.swift */; };
 		5C936C5529B9578E0049E28D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C936C5429B9578E0049E28D /* SignUpViewController.swift */; };
+		5C936C5729CBB7800049E28D /* Post.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C936C5629CBB7800049E28D /* Post.storyboard */; };
+		5C936C5929CBBA5D0049E28D /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C936C5829CBBA5D0049E28D /* PostViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +66,8 @@
 		5C936C4529B94F760049E28D /* clean_cutsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clean_cutsUITests.swift; sourceTree = "<group>"; };
 		5C936C4729B94F760049E28D /* clean_cutsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clean_cutsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5C936C5429B9578E0049E28D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		5C936C5629CBB7800049E28D /* Post.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Post.storyboard; sourceTree = "<group>"; };
+		5C936C5829CBBA5D0049E28D /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,8 @@
 				5C936C2429B94F720049E28D /* AppDelegate.swift */,
 				5C936C2629B94F720049E28D /* SceneDelegate.swift */,
 				5C936C2A29B94F720049E28D /* Main.storyboard */,
+				5C936C5629CBB7800049E28D /* Post.storyboard */,
+				5C936C5829CBBA5D0049E28D /* PostViewController.swift */,
 				224C8D5F29BA4E660085A760 /* ProfileStoryBoard.storyboard */,
 				224C8D5D29B958040085A760 /* ProfileViewController.swift */,
 				5587D8F229C9179400785364 /* Central.storyboard */,
@@ -270,6 +276,7 @@
 				5C936C3129B94F760049E28D /* LaunchScreen.storyboard in Resources */,
 				224C8D6029BA4E660085A760 /* ProfileStoryBoard.storyboard in Resources */,
 				5587D8F329C9179400785364 /* Central.storyboard in Resources */,
+				5C936C5729CBB7800049E28D /* Post.storyboard in Resources */,
 				5C936C2E29B94F760049E28D /* Assets.xcassets in Resources */,
 				5C936C2C29B94F720049E28D /* Main.storyboard in Resources */,
 				224C8D6229CBB4400085A760 /* GoogleService-Info.plist in Resources */,
@@ -297,6 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C936C5929CBBA5D0049E28D /* PostViewController.swift in Sources */,
 				5587D8F129C916A900785364 /* LoginViewController.swift in Sources */,
 				5C936C2529B94F720049E28D /* AppDelegate.swift in Sources */,
 				224C8D5E29B958040085A760 /* ProfileViewController.swift in Sources */,
