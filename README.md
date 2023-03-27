@@ -87,6 +87,15 @@ CleanCut is a social media app where interested people can post their haircuts t
 <img src="https://github.com/UD331/CleanCut/blob/main/wireframes/Screenshot%202023-03-06%20at%206.26.24%20PM.png" height=200>
 <img src="https://github.com/UD331/CleanCut/blob/main/wireframes/Screenshot%202023-03-06%20at%206.26.36%20PM.png" height=200>
 
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='https://github.com/pgupta751/MyStory-iOSApp/blob/main/Kapture%202023-01-31%20at%2009.33.25.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with Kap
+
+
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
