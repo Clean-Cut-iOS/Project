@@ -1,24 +1,15 @@
 //
-//  LoginViewController.swift
+//  ProfileViewController.swift
 //  clean_cuts
 //
-//  Created by Samuel Akinniranye on 3/8/23.
-//  Created by Priyam Gupta on 3/20/23.
+//  Created by Bryson Smith on 3/8/23.
 //
 
 import UIKit
 
-class LoginViewController: UIViewController {
-
-
-    @IBOutlet var Username: UITextField!
+class ProfileViewController: UIViewController {
+    @IBOutlet weak var profileImage: UIImageView!
     
-    @IBOutlet var Password: UITextField!
-    
-    @IBOutlet var Login: UIButton!
-    
-    @IBOutlet var Signup: UIButton!
-
     override func viewDidLoad() {
         super.viewDidLoad()
 

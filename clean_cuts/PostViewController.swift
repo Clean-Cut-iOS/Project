@@ -1,24 +1,24 @@
 //
-//  LoginViewController.swift
+//  PostViewController.swift
 //  clean_cuts
 //
-//  Created by Samuel Akinniranye on 3/8/23.
-//  Created by Priyam Gupta on 3/20/23.
+//  Created by Irfan Hussain on 3/22/23.
 //
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class PostViewController: UIViewController {
 
-
-    @IBOutlet var Username: UITextField!
     
-    @IBOutlet var Password: UITextField!
+    @IBOutlet weak var username: UILabel!
     
-    @IBOutlet var Login: UIButton!
     
-    @IBOutlet var Signup: UIButton!
-
+    @IBOutlet weak var imagecut: UIImageView!
+    
+    
+    @IBOutlet weak var barbertag: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
