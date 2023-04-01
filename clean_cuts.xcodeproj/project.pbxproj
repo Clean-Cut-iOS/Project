@@ -16,6 +16,7 @@
 		55A2C4EB29B95751005DCD37 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 55A2C4EA29B95751005DCD37 /* FirebaseAuth */; };
 		55A2C4ED29B95751005DCD37 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 55A2C4EC29B95751005DCD37 /* FirebaseFirestore */; };
 		55A2C4EF29B95751005DCD37 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 55A2C4EE29B95751005DCD37 /* FirebaseStorage */; };
+		55DE052529D8A61800EFC0DA /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55DE052429D8A61800EFC0DA /* CameraViewController.swift */; };
 		55FF615329D2562200FB9019 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FF615229D2562200FB9019 /* LoginViewController.swift */; };
 		5C936C2529B94F720049E28D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C936C2429B94F720049E28D /* AppDelegate.swift */; };
 		5C936C2729B94F720049E28D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C936C2629B94F720049E28D /* SceneDelegate.swift */; };
@@ -51,6 +52,7 @@
 		224C8D5F29BA4E660085A760 /* ProfileStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileStoryBoard.storyboard; sourceTree = "<group>"; };
 		224C8D6129CBB4400085A760 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5587D8F229C9179400785364 /* Central.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Central.storyboard; sourceTree = "<group>"; };
+		55DE052429D8A61800EFC0DA /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		55FF615229D2562200FB9019 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5C936C2129B94F720049E28D /* clean_cuts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clean_cuts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C936C2429B94F720049E28D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				5C936C5829CBBA5D0049E28D /* PostViewController.swift */,
 				224C8D5F29BA4E660085A760 /* ProfileStoryBoard.storyboard */,
 				224C8D5D29B958040085A760 /* ProfileViewController.swift */,
+				55DE052429D8A61800EFC0DA /* CameraViewController.swift */,
 				5587D8F229C9179400785364 /* Central.storyboard */,
 				5C936C2D29B94F760049E28D /* Assets.xcassets */,
 				5C936C2F29B94F760049E28D /* LaunchScreen.storyboard */,
@@ -306,6 +309,7 @@
 				224C8D5E29B958040085A760 /* ProfileViewController.swift in Sources */,
 				55FF615329D2562200FB9019 /* LoginViewController.swift in Sources */,
 				5C936C2729B94F720049E28D /* SceneDelegate.swift in Sources */,
+				55DE052529D8A61800EFC0DA /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
