@@ -10,13 +10,13 @@
 		224C8D5E29B958040085A760 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224C8D5D29B958040085A760 /* ProfileViewController.swift */; };
 		224C8D6029BA4E660085A760 /* ProfileStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224C8D5F29BA4E660085A760 /* ProfileStoryBoard.storyboard */; };
 		224C8D6229CBB4400085A760 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 224C8D6129CBB4400085A760 /* GoogleService-Info.plist */; };
-		5587D8F129C916A900785364 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5587D8F029C916A900785364 /* LoginViewController.swift */; };
 		5587D8F329C9179400785364 /* Central.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5587D8F229C9179400785364 /* Central.storyboard */; };
 		55A2C4E229B95507005DCD37 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 55A2C4E129B95507005DCD37 /* AlamofireImage */; };
 		55A2C4E929B95751005DCD37 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 55A2C4E829B95751005DCD37 /* FirebaseAnalytics */; };
 		55A2C4EB29B95751005DCD37 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 55A2C4EA29B95751005DCD37 /* FirebaseAuth */; };
 		55A2C4ED29B95751005DCD37 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 55A2C4EC29B95751005DCD37 /* FirebaseFirestore */; };
 		55A2C4EF29B95751005DCD37 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 55A2C4EE29B95751005DCD37 /* FirebaseStorage */; };
+		55FF615329D2562200FB9019 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FF615229D2562200FB9019 /* LoginViewController.swift */; };
 		5C936C2529B94F720049E28D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C936C2429B94F720049E28D /* AppDelegate.swift */; };
 		5C936C2729B94F720049E28D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C936C2629B94F720049E28D /* SceneDelegate.swift */; };
 		5C936C2C29B94F720049E28D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C936C2A29B94F720049E28D /* Main.storyboard */; };
@@ -25,7 +25,6 @@
 		5C936C3C29B94F760049E28D /* clean_cutsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C936C3B29B94F760049E28D /* clean_cutsTests.swift */; };
 		5C936C4629B94F760049E28D /* clean_cutsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C936C4529B94F760049E28D /* clean_cutsUITests.swift */; };
 		5C936C4829B94F760049E28D /* clean_cutsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C936C4729B94F760049E28D /* clean_cutsUITestsLaunchTests.swift */; };
-		5C936C5529B9578E0049E28D /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C936C5429B9578E0049E28D /* SignUpViewController.swift */; };
 		5C936C5729CBB7800049E28D /* Post.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C936C5629CBB7800049E28D /* Post.storyboard */; };
 		5C936C5929CBBA5D0049E28D /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C936C5829CBBA5D0049E28D /* PostViewController.swift */; };
 /* End PBXBuildFile section */
@@ -51,8 +50,8 @@
 		224C8D5D29B958040085A760 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		224C8D5F29BA4E660085A760 /* ProfileStoryBoard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileStoryBoard.storyboard; sourceTree = "<group>"; };
 		224C8D6129CBB4400085A760 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		5587D8F029C916A900785364 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5587D8F229C9179400785364 /* Central.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Central.storyboard; sourceTree = "<group>"; };
+		55FF615229D2562200FB9019 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5C936C2129B94F720049E28D /* clean_cuts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clean_cuts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C936C2429B94F720049E28D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C936C2629B94F720049E28D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,7 +64,6 @@
 		5C936C4129B94F760049E28D /* clean_cutsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clean_cutsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C936C4529B94F760049E28D /* clean_cutsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clean_cutsUITests.swift; sourceTree = "<group>"; };
 		5C936C4729B94F760049E28D /* clean_cutsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clean_cutsUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		5C936C5429B9578E0049E28D /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		5C936C5629CBB7800049E28D /* Post.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Post.storyboard; sourceTree = "<group>"; };
 		5C936C5829CBBA5D0049E28D /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -127,13 +125,12 @@
 				5C936C2429B94F720049E28D /* AppDelegate.swift */,
 				5C936C2629B94F720049E28D /* SceneDelegate.swift */,
 				5C936C2A29B94F720049E28D /* Main.storyboard */,
+				55FF615229D2562200FB9019 /* LoginViewController.swift */,
 				5C936C5629CBB7800049E28D /* Post.storyboard */,
 				5C936C5829CBBA5D0049E28D /* PostViewController.swift */,
 				224C8D5F29BA4E660085A760 /* ProfileStoryBoard.storyboard */,
 				224C8D5D29B958040085A760 /* ProfileViewController.swift */,
 				5587D8F229C9179400785364 /* Central.storyboard */,
-				5C936C5429B9578E0049E28D /* SignUpViewController.swift */,
-				5587D8F029C916A900785364 /* LoginViewController.swift */,
 				5C936C2D29B94F760049E28D /* Assets.xcassets */,
 				5C936C2F29B94F760049E28D /* LaunchScreen.storyboard */,
 				5C936C3229B94F760049E28D /* Info.plist */,
@@ -305,10 +302,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C936C5929CBBA5D0049E28D /* PostViewController.swift in Sources */,
-				5587D8F129C916A900785364 /* LoginViewController.swift in Sources */,
 				5C936C2529B94F720049E28D /* AppDelegate.swift in Sources */,
 				224C8D5E29B958040085A760 /* ProfileViewController.swift in Sources */,
-				5C936C5529B9578E0049E28D /* SignUpViewController.swift in Sources */,
+				55FF615329D2562200FB9019 /* LoginViewController.swift in Sources */,
 				5C936C2729B94F720049E28D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
