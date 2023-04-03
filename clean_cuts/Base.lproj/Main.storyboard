@@ -88,10 +88,10 @@
         </systemColor>
             <point key="canvasLocation" x="48" y="-2"/>
         </scene>
-        <!--Sign Up View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="IbJ-SC-7TT">
             <objects>
-                <viewController id="jPl-5A-vVb" customClass="SignUpViewController" customModule="clean_cuts" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="jPl-5A-vVb" customClass="LoginViewController" customModule="clean_cuts" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Y1h-bl-MET">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -143,6 +143,9 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="LOGIN"/>
+                                <connections>
+                                    <action selector="onSignIn:" destination="jPl-5A-vVb" eventType="touchUpInside" id="zaj-mh-tkN"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ChC-gy-Ise">
                                 <rect key="frame" x="60" y="609" width="261" height="40"/>
@@ -151,20 +154,31 @@
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="SIGN UP"/>
+                                <connections>
+                                    <action selector="onSignUp:" destination="jPl-5A-vVb" eventType="touchUpInside" id="1jc-0E-5VU"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Azo-VL-k1R"/>
                         <color key="backgroundColor" systemColor="systemGrayColor"/>
                     </view>
                     <connections>
-                        <outlet property="EnterEmail" destination="MKd-Qe-UOu" id="YsB-IJ-cfc"/>
-                        <outlet property="EnterPassword" destination="s1R-MV-XXC" id="M0g-mm-AsM"/>
-                        <outlet property="SignUpButton" destination="ChC-gy-Ise" id="fbg-Un-QzD"/>
+                        <outlet property="passwordField" destination="s1R-MV-XXC" id="SHE-af-Aaf"/>
+                        <outlet property="usernameField" destination="MKd-Qe-UOu" id="BAo-kQ-ezg"/>
+                        <segue destination="4K6-HS-baH" kind="presentation" identifier="loginSegue" modalPresentationStyle="fullScreen" id="3eR-Gq-e9B"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2iJ-dJ-AG5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="788.54961832061065" y="-2.1126760563380285"/>
+        </scene>
+        <!--Post-->
+        <scene sceneID="uN4-23-ETi">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Post" id="4K6-HS-baH" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4F6-YU-lXr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1738" y="-293"/>
         </scene>
     </scenes>
     <resources>
