@@ -13,6 +13,12 @@ import PhotosUI
 class CameraViewController: UIViewController {
     
     
+    @IBOutlet weak var postImageView: UIImageView!
+    
+    
+    @IBOutlet weak var captionField: UITextField!
+    
+    
     @IBAction func onSubmit(_ sender: Any) {
         guard let imageData = postImageView.image?.pngData() else {
             print("no image data")
