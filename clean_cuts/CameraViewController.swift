@@ -88,7 +88,12 @@ class CameraViewController: UIViewController {
         }
     }
     
-    @IBAction func OnCameraButton(_ sender: Any) {
+    
+    
+    
+    @IBAction func onCamButton(_ sender: UITapGestureRecognizer) {
+        
+        print("not bereal")
         if PHPhotoLibrary.authorizationStatus(for: .readWrite) != .authorized {
             // Request photo library access
             PHPhotoLibrary.requestAuthorization(for: .readWrite) { [weak self] status in
@@ -111,7 +116,9 @@ class CameraViewController: UIViewController {
             // Show photo picker
             presentImagePicker()
         }
+        
     }
+    
     
     func presentGoToSettingsAlert() {
         let alertController = UIAlertController (

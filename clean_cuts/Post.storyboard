@@ -78,12 +78,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V1b-Nq-ssQ">
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screenshot 2023-03-06 at 6.26.24 PM" translatesAutoresizingMaskIntoConstraints="NO" id="V1b-Nq-ssQ">
                                 <rect key="frame" x="76" y="135" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <gestureRecognizers/>
                                 <connections>
-                                    <outletCollection property="gestureRecognizers" destination="zzy-wC-5Im" appends="YES" id="1UX-Fr-7GK"/>
+                                    <outletCollection property="gestureRecognizers" destination="pxg-0i-8fB" appends="YES" id="sJT-cy-xEq"/>
                                 </connections>
                             </imageView>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="kndfjkndsjf" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5PY-HV-5FE">
@@ -109,7 +109,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SfX-UO-nYf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="zzy-wC-5Im"/>
+                <tapGestureRecognizer id="pxg-0i-8fB">
+                    <connections>
+                        <action selector="onCamButton:" destination="5ql-1A-d3V" id="7JJ-ea-Cq6"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="1609" y="15"/>
         </scene>
@@ -133,6 +137,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Screenshot 2023-03-06 at 6.26.24 PM" width="548" height="1192"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
