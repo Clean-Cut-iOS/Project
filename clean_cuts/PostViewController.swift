@@ -19,6 +19,11 @@ class PostViewController: UIViewController {
     @IBOutlet weak var barbertag: UILabel!
     
     
+    @IBOutlet var postsTableView: UITableView!
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

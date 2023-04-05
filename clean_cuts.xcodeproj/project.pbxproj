@@ -28,6 +28,7 @@
 		5C936C4829B94F760049E28D /* clean_cutsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C936C4729B94F760049E28D /* clean_cutsUITestsLaunchTests.swift */; };
 		5C936C5729CBB7800049E28D /* Post.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C936C5629CBB7800049E28D /* Post.storyboard */; };
 		5C936C5929CBBA5D0049E28D /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C936C5829CBBA5D0049E28D /* PostViewController.swift */; };
+		7E221B0029DE2F1F00D31419 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E221AFF29DE2F1F00D31419 /* PostCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		5C936C4729B94F760049E28D /* clean_cutsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clean_cutsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5C936C5629CBB7800049E28D /* Post.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Post.storyboard; sourceTree = "<group>"; };
 		5C936C5829CBBA5D0049E28D /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		7E221AFF29DE2F1F00D31419 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 				5C936C2A29B94F720049E28D /* Main.storyboard */,
 				55FF615229D2562200FB9019 /* LoginViewController.swift */,
 				5C936C5629CBB7800049E28D /* Post.storyboard */,
+				7E221AFF29DE2F1F00D31419 /* PostCell.swift */,
 				5C936C5829CBBA5D0049E28D /* PostViewController.swift */,
 				224C8D5F29BA4E660085A760 /* ProfileStoryBoard.storyboard */,
 				224C8D5D29B958040085A760 /* ProfileViewController.swift */,
@@ -304,6 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E221B0029DE2F1F00D31419 /* PostCell.swift in Sources */,
 				5C936C5929CBBA5D0049E28D /* PostViewController.swift in Sources */,
 				5C936C2529B94F720049E28D /* AppDelegate.swift in Sources */,
 				224C8D5E29B958040085A760 /* ProfileViewController.swift in Sources */,
