@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F0404AB2-DE45-411E-8F56-49D2490D8A14"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A104E0DB-856D-4755-908D-210DAC526A03"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "clean_cuts/PostCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "PostCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "A104E0DB-856D-4755-908D-210DAC526A03 - 4924725a1c66983f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "clean_cuts.PostCell.postImageView.getter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "clean_cuts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brysonsmith/Documents/GitHub/Project/clean_cuts/PostCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "A104E0DB-856D-4755-908D-210DAC526A03 - c7a4777a9e709c23"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "clean_cuts.PostCell.postImageView.setter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "clean_cuts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brysonsmith/Documents/GitHub/Project/clean_cuts/PostCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "A104E0DB-856D-4755-908D-210DAC526A03 - 82bbe0c1b75eeb32"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "clean_cuts.PostCell.postImageView.modify : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "clean_cuts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brysonsmith/Documents/GitHub/Project/clean_cuts/PostCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "A104E0DB-856D-4755-908D-210DAC526A03 - e3bb7f6c179d7fdb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "clean_cuts.PostCell.postImageView.modify : Swift.Optional&lt;__C.UIImageView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "clean_cuts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brysonsmith/Documents/GitHub/Project/clean_cuts/PostCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "A104E0DB-856D-4755-908D-210DAC526A03 - 7f95e3537f893739"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "clean_cuts.PostCell.init(style: __C.UITableViewCellStyle, reuseIdentifier: Swift.Optional&lt;Swift.String&gt;) -&gt; clean_cuts.PostCell"
+                  moduleName = "clean_cuts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brysonsmith/Documents/GitHub/Project/clean_cuts/PostCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "A104E0DB-856D-4755-908D-210DAC526A03 - b7870a12bd6621af"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "clean_cuts.PostCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;clean_cuts.PostCell&gt;"
+                  moduleName = "clean_cuts"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brysonsmith/Documents/GitHub/Project/clean_cuts/PostCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

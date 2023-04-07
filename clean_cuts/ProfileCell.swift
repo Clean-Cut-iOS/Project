@@ -1,51 +1,25 @@
 //
-//  PostCell.swift
+//  ProfileCell.swift
 //  clean_cuts
 //
-//  Created by Samuel Akinniranye on 4/5/23.
+//  Created by Bryson Smith on 4/7/23.
 //
 
 import UIKit
 import AlamofireImage
 import Firebase
-class PostCell: UITableViewCell {
-    
+
+
+class ProfileCell: UITableViewCell {
     
     @IBOutlet var profileImageView: UIImageView!
     
+    @IBOutlet var profileAuthorLabel: UILabel!
     
     @IBOutlet var profileCaptionLabel: UILabel!
     
-    @IBOutlet var profileAuthorLabel: UILabel!
-    
-    
-    
-    @IBOutlet var postImageView: UIImageView!
-    
-    
-    @IBOutlet var postAuthorLabel: UILabel!
-    
-    
-    @IBOutlet var postCaptionLabel: UILabel!
-    
-
     
     func configure(with post: [String: Any]) {
-        if let author = post["author"] as? String {
-            postAuthorLabel.text = author
-        }
-        
-        if let caption = post["caption"] as? String {
-            postCaptionLabel.text = caption
-        }
-        
-        if let imageLink = post["image"] as? String,
-           let url = URL(string: imageLink) {
-            postImageView.af.setImage(withURL: url)
-        }
-    }
-    
-    func reconfigure(with post: [String: Any]) {
         if let author = post["author"] as? String {
             profileAuthorLabel.text = author
         }
@@ -73,3 +47,4 @@ class PostCell: UITableViewCell {
     }
 
 }
+
