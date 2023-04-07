@@ -23,15 +23,6 @@ class PostViewController: UIViewController, UITableViewDelegate, UITableViewData
     
 
     
-    @IBOutlet weak var username: UILabel!
-    
-    
-    @IBOutlet weak var imagecut: UIImageView!
-    
-    
-    @IBOutlet weak var barbertag: UILabel!
-    
-    
     @IBOutlet var postsTableView: UITableView!
     
     
