@@ -6,7 +6,8 @@
 //
 
 import UIKit
-
+import AlamofireImage
+import Firebase
 class PostCell: UITableViewCell {
     
     
@@ -20,6 +21,23 @@ class PostCell: UITableViewCell {
     @IBOutlet var postCaptionLabel: UILabel!
     
 
+    
+    func configure(with post: [String: Any]) {
+        if let author = post["author"] as? String {
+            postAuthorLabel.text = author
+        }
+        
+        if let caption = post["caption"] as? String {
+            postCaptionLabel.text = caption
+        }
+        
+        if let imageLink = post["image"] as? String,
+           let url = URL(string: imageLink) {
+            postImageView.af.setImage(withURL: url)
+        }
+    }
+        
+        
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
