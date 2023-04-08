@@ -8,6 +8,7 @@
 import UIKit
 import Firebase
 
+var g_username = "";
 class LoginViewController: UIViewController {
     
     @IBOutlet weak var usernameField: UITextField!
@@ -32,6 +33,9 @@ class LoginViewController: UIViewController {
                 return
             }
             
+            let ind = username.firstIndex(of: "@")
+            g_username = username.substring(to: ind!)
+            print(g_username)
             print("Signed in as \(res.user.email)")
             self.performSegue(withIdentifier: "loginSegue", sender: nil)
             
@@ -56,6 +60,7 @@ class LoginViewController: UIViewController {
                 return
             }
             
+            g_username = username
             print("Signed up new user as \(res.user.email)")
             self.performSegue(withIdentifier: "loginSegue", sender: nil)
             

@@ -43,7 +43,7 @@ class ProfileViewController: UIViewController, UITableViewDelegate, UITableViewD
         self.posts.removeAll()
         
         let postsRef = Firestore.firestore().collection("posts")
-        postsRef.order(by: "timestamp", descending: true).limit(to: 10).getDocuments { querySnapshot, error in
+        postsRef.whereField("author", isEqualTo: g_username).getDocuments { querySnapshot, error in
             if let e = error {
                 print(e.localizedDescription)
                 return
