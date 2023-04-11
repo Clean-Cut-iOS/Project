@@ -27,21 +27,21 @@ CleanCut is a social media app where interested people can post their haircuts t
 
 * Users can create their IDs and can then later login using said IDs.
 * Backend database to store User details as well as their posts and friends.
-* Users can add their friends through the app.
 * Photos that can be taken from both the device library as well as from the camera.
-* A rating system on a scale to allow your friends to rate your new haircut.
 * A profile page to see all theirs photos and friends.
-* A way to restrict non-friends from seeing your pictures.
-* A separate barber profile system on which they can showcase the haircuts they did.
-* A tag system to tag your barber so they can get publicity / notoriety based on how the hair cut is received.
-* Allowing users to post comments on other's pictures.
-* Separate tabs for men and women haircuts.
 
 
 **Optional Nice-to-have Stories**
 
 * Adding geolocation to the barbers so the users can see the locaton of their shops.
 * The rating system allowing top-rated haircuts to rise to the top of the tab.
+* Users can add their friends through the app.
+* A rating system on a scale to allow your friends to rate your new haircut.
+* A way to restrict non-friends from seeing your pictures.
+* A separate barber profile system on which they can showcase the haircuts they did.
+* A tag system to tag your barber so they can get publicity / notoriety based on how the hair cut is received.
+* Allowing users to post comments on other's pictures.
+* Separate tabs for men and women haircuts.
 
 ### 2. Screen Archetypes
 
@@ -91,15 +91,11 @@ CleanCut is a social media app where interested people can post their haircuts t
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/Clean-Cut-iOS/Project/blob/main/login-screen-demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/Clean-Cut-iOS/Project/blob/WorkingBranch/final-demo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with Kap
 
 
-## Schema 
-[This section will be completed in Unit 9]
-### Models
-[Add table of models]
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
